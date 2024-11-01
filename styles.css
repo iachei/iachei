@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FB5631;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container {
+    margin-bottom: 20px;
+    
+}
+
+.header-container p {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.logo {
+    width: 60%; /* Altere o tamanho conforme necessário */
+    background-size: cover;
+    background-position: center center;
+}
+
+.search-input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ff3300;
+}
+
+main h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h5 {
+    font-size: 18px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-card a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff2f00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-card a:hover {
+    background-color: #ff3c00bb;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0 50px 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.social-icon {
+    width: 50px; /* Altere o tamanho conforme necessário */
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    font-weight: bolder;
+    
+    
+}
+
+@media screen and (max-width:480px) {
+
+   
+    
+    header {
+        background-color: #FB5631;
+        color: white;
+        text-align: center;
+        padding: 0;
+        
+    }
+    
+    .header-container {
+        margin: 0;
+        
+    }
+    
+    .header-container p {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 14px;
+    }
+    
+    .logo {
+        width: 100%; /* Altere o tamanho conforme necessário */
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .search-input {
+        width: 80%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+  
+    
+    main h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .product-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    
+    .product-card:hover {
+        transform: scale(1.02);
+        box-shadow: 1px 1px 15px 1px black;
+    }
+    
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .product-card h5 {
+        font-size: 18px;
+    }
+    
+   
+    .product-card a:hover {
+        background-color: #ff3c00bb;
+    }
+    
+    footer {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px 0 50px 0;
+        margin-top: 20px;
+    }
+    
+    .footer-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+    
+    }
+    
+    .social-icon {
+        width: 50px; /* Altere o tamanho conforme necessário */
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+    
+    footer .social-icons a {
+        text-decoration: none;
+        font-weight: bolder;
+        
+        
+    }
+
+
+}
+
+
+
