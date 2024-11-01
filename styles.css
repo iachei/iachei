@@ -168,6 +168,16 @@ footer .social-icons a {
         padding: 0;
         font-size: 14px;
     }
+
+    .navbar {
+        margin-top: 30px;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+    }
     
     .logo {
         width: 100%; /* Altere o tamanho conforme necessário */
@@ -181,7 +191,7 @@ footer .social-icons a {
         margin-top: 10px;
     }
     
-  
+   
     
     main h2 {
         text-align: center;
